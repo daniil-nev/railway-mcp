@@ -1,0 +1,21 @@
+{
+    "name": "mcp-server-runner",
+    "version": "1.0.0",
+    "description": "A Railway template to run various MCP servers dynamically based on config.json.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "MCP",
+      "Railway",
+      "Docker",
+      "npx",
+      "pip",
+      "uvicorn"
+    ],
+    "author": "Stera Global",
+    "license": "MIT",
+    "dependencies": {}
+  }
+  
