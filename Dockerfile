@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y \
     curl \
   && rm -rf /var/lib/apt/lists/*
 
-# Install global npm packages for uvx and uv
-RUN npm install -g uvx uv
+# Install global npm packages for uv (uvx removed)
+RUN npm install -g uv
 
 # Optionally, install uvicorn via pip if needed for any MCP servers
 RUN pip3 install uvicorn
